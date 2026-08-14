@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Consultation | TechFix IT Solutions</title>
+  <meta name="description" content="Book a free IT consultation with TechFix IT Solutions. Choose a date, time, and service.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="container nav">
+      <a href="index.html" class="logo"><span class="dot"></span>TechFix IT Solutions</a>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation menu">Menu</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="booking.html" aria-current="page">Booking</a></li>
+        <li><a href="testimonials.html">Testimonials</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" style="padding: 64px 0 48px;">
+      <div class="container">
+        <p class="hero-eyebrow">Booking</p>
+        <h1>Book a free 20-minute consultation</h1>
+        <p>Tell us when suits you and what you need help with — we'll confirm your slot by email within one business day.</p>
+      </div>
+    </section>
+
+    <div class="trace"></div>
+
+
+    <section>
+      <div class="container">
+        <form class="form-wrap" data-validate novalidate style="max-width:720px;">
+          <div class="booking-grid">
+            <div>
+              <label for="b-name">Full Name</label>
+              <input type="text" id="b-name" name="name" required>
+            </div>
+            <div>
+              <label for="b-company">Company Name</label>
+              <input type="text" id="b-company" name="company">
+            </div>
+          </div>
+
+          <div class="booking-grid">
+            <div>
+              <label for="b-email">Email Address</label>
+              <input type="email" id="b-email" name="email" required>
+            </div>
+            <div>
+              <label for="b-phone">Phone Number</label>
+              <input type="tel" id="b-phone" name="phone" required>
+            </div>
+          </div>
+
+          <div class="booking-grid">
+            <div>
+              <label for="b-service">Service Needed</label>
+              <select id="b-service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="helpdesk">Desktop &amp; Helpdesk Support</option>
+                <option value="networking">Network Setup &amp; Maintenance</option>
+                <option value="security">Cybersecurity Essentials</option>
+                <option value="plan">Monthly Support Plan</option>
+                <option value="other">Other / Not Sure</option>
+              </select>
+            </div>
+            <div>
+              <label for="b-plan">Interested Plan (optional)</label>
+              <select id="b-plan" name="plan">
+                <option value="">No preference</option>
+                <option value="starter">Starter</option>
+                <option value="growth">Growth</option>
+                <option value="plus">Business Plus</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="booking-grid">
+            <div>
+              <label for="b-date">Preferred Date</label>
+              <input type="date" id="b-date" name="date" required>
+            </div>
+            <div>
+              <label for="b-time">Preferred Time</label>
+              <input type="time" id="b-time" name="time" required>
+            </div>
+          </div>
+
+          <label for="b-notes">Anything we should know beforehand?</label>
+          <textarea id="b-notes" name="notes" placeholder="Number of devices, current issues, office access details, etc."></textarea>
+
+          <div style="margin-top: 24px;">
+            <button type="submit" class="btn btn-primary" style="border:none; cursor:pointer;">Request Booking</button>
+          </div>
+
+          <div class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>TechFix IT Solutions</h4>
+          <p>Practical IT support for small and medium businesses across Gauteng.</p>
+        </div>
+        <div>
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>support@techfixit.co.za</li>
+            <li>011 555 0198</li>
+            <li>Johannesburg, Gauteng</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 TechFix IT Solutions. All rights reserved.</span>
+        <span>Student project — WEDE5020</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

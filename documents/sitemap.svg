@@ -1,0 +1,63 @@
+<svg viewBox="0 0 1000 480" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif">
+  <rect width="1000" height="480" fill="#f4f7fb"/>
+
+  <!-- Home node -->
+  <rect x="420" y="24" width="160" height="56" rx="6" fill="#0a1628"/>
+  <text x="500" y="49" text-anchor="middle" fill="#5eead4" font-size="12" font-family="monospace">HOME</text>
+  <text x="500" y="68" text-anchor="middle" fill="#f4f7fb" font-size="13">index.html</text>
+
+  <!-- Connector spine -->
+  <line x1="500" y1="80" x2="500" y2="120" stroke="#2dd4bf" stroke-width="2"/>
+  <line x1="60" y1="140" x2="940" y2="140" stroke="#2dd4bf" stroke-width="2"/>
+
+  <!-- Drop lines to 8 children, evenly spaced -->
+  <line x1="60" y1="140" x2="60" y2="180" stroke="#2dd4bf" stroke-width="2"/>
+  <line x1="188" y1="140" x2="188" y2="180" stroke="#2dd4bf" stroke-width="2"/>
+  <line x1="316" y1="140" x2="316" y2="180" stroke="#2dd4bf" stroke-width="2"/>
+  <line x1="444" y1="140" x2="444" y2="180" stroke="#2dd4bf" stroke-width="2"/>
+  <line x1="556" y1="140" x2="556" y2="180" stroke="#2dd4bf" stroke-width="2"/>
+  <line x1="684" y1="140" x2="684" y2="180" stroke="#2dd4bf" stroke-width="2"/>
+  <line x1="812" y1="140" x2="812" y2="180" stroke="#2dd4bf" stroke-width="2"/>
+  <line x1="940" y1="140" x2="940" y2="180" stroke="#2dd4bf" stroke-width="2"/>
+
+  <!-- 8 child nodes -->
+  <g font-size="10.5" font-family="monospace" fill="#2dd4bf">
+    <rect x="8" y="180" width="104" height="56" rx="6" fill="#ffffff" stroke="#16304d" stroke-width="1.5"/>
+    <text x="60" y="203" text-anchor="middle">ABOUT</text>
+    <text x="60" y="221" text-anchor="middle" fill="#0a1628" font-family="Arial">about.html</text>
+
+    <rect x="136" y="180" width="104" height="56" rx="6" fill="#ffffff" stroke="#16304d" stroke-width="1.5"/>
+    <text x="188" y="203" text-anchor="middle">SERVICES</text>
+    <text x="188" y="221" text-anchor="middle" fill="#0a1628" font-family="Arial">services.html</text>
+
+    <rect x="264" y="180" width="104" height="56" rx="6" fill="#ffffff" stroke="#16304d" stroke-width="1.5"/>
+    <text x="316" y="203" text-anchor="middle">PRICING</text>
+    <text x="316" y="221" text-anchor="middle" fill="#0a1628" font-family="Arial">pricing.html</text>
+
+    <rect x="392" y="180" width="104" height="56" rx="6" fill="#ffffff" stroke="#16304d" stroke-width="1.5"/>
+    <text x="444" y="203" text-anchor="middle">BOOKING</text>
+    <text x="444" y="221" text-anchor="middle" fill="#0a1628" font-family="Arial">booking.html</text>
+
+    <rect x="504" y="180" width="104" height="56" rx="6" fill="#ffffff" stroke="#16304d" stroke-width="1.5"/>
+    <text x="556" y="203" text-anchor="middle" font-size="9.5">TESTIMONIALS</text>
+    <text x="556" y="221" text-anchor="middle" fill="#0a1628" font-family="Arial">testimonials.html</text>
+
+    <rect x="632" y="180" width="104" height="56" rx="6" fill="#ffffff" stroke="#16304d" stroke-width="1.5"/>
+    <text x="684" y="203" text-anchor="middle">FAQ</text>
+    <text x="684" y="221" text-anchor="middle" fill="#0a1628" font-family="Arial">faq.html</text>
+
+    <rect x="760" y="180" width="104" height="56" rx="6" fill="#ffffff" stroke="#16304d" stroke-width="1.5"/>
+    <text x="812" y="203" text-anchor="middle">CONTACT</text>
+    <text x="812" y="221" text-anchor="middle" fill="#0a1628" font-family="Arial">contact.html</text>
+
+    <rect x="888" y="180" width="104" height="56" rx="6" fill="#f0a94e" stroke="#16304d" stroke-width="1.5"/>
+    <text x="940" y="203" text-anchor="middle" fill="#0a1628">CTA</text>
+    <text x="940" y="221" text-anchor="middle" fill="#0a1628" font-family="Arial">booking.html</text>
+  </g>
+
+  <text x="500" y="300" text-anchor="middle" fill="#334155" font-size="13">All 8 pages are linked from the primary navigation menu and footer on every page,</text>
+  <text x="500" y="320" text-anchor="middle" fill="#334155" font-size="13">so a visitor can reach any page from any other page in a single click.</text>
+  <text x="500" y="350" text-anchor="middle" fill="#334155" font-size="12">Home → About → Services → Pricing → Booking → Testimonials → FAQ → Contact</text>
+
+  <text x="500" y="440" text-anchor="middle" fill="#8ea0b8" font-size="11">TechFix IT Solutions — Site Structure — WEDE5020 Part 1</text>
+</svg>
