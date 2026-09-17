@@ -5,7 +5,7 @@
 - **Student Number:** ST10483866
 - **Module:** WEDE5020 — Web Development (Introduction)
 - **Institution:** Rosebank College (The Independent Institute of Education (Pty) Ltd)
-- **Submission:** Part 1 — Building the Foundation: Project Initiation and Planning
+- **Submission:** Part 2 — Designing the Visuals: CSS Styling and Responsive Design
 
 ## Project Overview
 TechFix IT Solutions is a small IT support business based in Johannesburg, Gauteng, offering desktop support, network setup and maintenance, and cybersecurity essentials to small and medium businesses that don't have an in-house IT department. This website was built as the practical component of the WEDE5020 Proof of Evidence (PoE), which is structured across three parts:
@@ -34,6 +34,21 @@ TechFix IT Solutions is a small IT support business based in Johannesburg, Gaute
 - Client-side form validation (required fields, email format check) via `js/script.js`
 - Mobile navigation toggle for small screens
 - Semantic HTML structure (`header`, `nav`, `main`, `footer`) throughout
+
+## Part 2 — CSS Styling and Responsive Design
+This submission builds on the Part 1 HTML foundation with a complete visual design system and responsive behaviour:
+
+- **External stylesheet:** all 8 pages link a single `css/style.css`, following a consistent lowercase naming convention.
+- **Base styles & CSS variables:** a `:root` colour/typography/spacing system (navy + teal palette, Space Grotesk/Inter/JetBrains Mono type scale) and a lightweight reset (`* { box-sizing: border-box; margin: 0; padding: 0; }`) for cross-browser consistency.
+- **Typography:** `font-family`, `font-size`, `font-weight`, `line-height`, and `letter-spacing` applied via a small set of reusable classes (`.hero h1`, `.lede`, `.section-label`) rather than repeating declarations per element — taking advantage of CSS's cascading nature.
+- **Layout:** Flexbox for the navigation bar, hero split (text + image), and button groups; CSS Grid (`repeat(auto-fit, minmax(...))`) for service cards, pricing cards, team members, and the footer.
+- **Visual styling:** `color`, `background-color`, `border`, `box-shadow`, and interactive `:hover`, `:focus`, and `:active` pseudo-classes across buttons, nav links, and form fields.
+- **Responsive images:** `srcset`/`sizes` on the homepage hero image and team photos (resolution switching), and a `<picture>` element with art-directed crops on the Services page banner (square crop on mobile, wide crop on desktop).
+- **Responsive design — three documented breakpoints:**
+  - Desktop (>1024px): default multi-column layout, side-by-side hero.
+  - Tablet (601px–1024px): tighter container padding, reduced hero image size.
+  - Mobile (≤720px / ≤600px): hamburger navigation, hero image drops below text, single-column stacking, buttons full-width.
+- **Testing:** verified in Chrome DevTools device toolbar at common device widths (375px, 768px, 1024px, 1440px).
 
 ## Timeline and Milestones
 | Milestone | Target Date |
@@ -97,11 +112,23 @@ TechFix_IT_Solutions_Website
 ## Changelog
 - **v0.1 (Part 1 deliverable):** Initial project setup — folder structure, sitemap, HTML structure for all 8 pages, basic content integration, working navigation.
 - **v0.2 (completed ahead of schedule, not part of the Part 1 mark allocation):** CSS styling, responsive design, and JavaScript (form validation, mobile nav, FAQ accordion) added.
+- **v0.3 (Part 1 feedback corrections):** *[Pending — to be completed once Part 1 rubric feedback is reviewed. Entries will be added here describing each correction and which page(s) it affects.]*
+- **v0.4 (Part 2 deliverable):**
+  - Added `.hero-inner` / `.hero-text` / `.hero-media` flex layout and a responsive hero image (`srcset`/`sizes`) to `index.html`.
+  - Added responsive team photos (`srcset` with 1x/2x/3x descriptors) to `about.html`, replacing initials-only avatars.
+  - Added an art-directed `<picture>` banner (square crop on mobile, wide crop on desktop) to `services.html`.
+  - Restructured `css/style.css` responsive rules into three documented breakpoints: desktop (default), tablet (≤1024px), and mobile (≤720px / ≤600px).
+  - Added `:active` pseudo-class states to primary/ghost buttons and nav links.
+  - Added `.banner-media` and `.avatar img` styling to support the new responsive images.
 
 ## References
 - Mozilla Developer Network (MDN). 2026. *HTML: HyperText Markup Language*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 2026].
 - Mozilla Developer Network (MDN). 2026. *CSS: Cascading Style Sheets*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS [Accessed 2026].
+- Mozilla Developer Network (MDN). 2026. *Responsive images*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Responsive_images [Accessed 2026].
+- Mozilla Developer Network (MDN). 2026. *CSS Grid Layout* and *Flexbox*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout and https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout [Accessed 2026].
+- Mozilla Developer Network (MDN). 2026. *Using media queries*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries [Accessed 2026].
 - W3C. 2026. *HTML Living Standard*. Available at: https://html.spec.whatwg.org/ [Accessed 2026].
 - Google Fonts. 2026. *Space Grotesk, Inter, and JetBrains Mono*. Available at: https://fonts.google.com/ [Accessed 2026].
+- Lorem Picsum. 2026. *Placeholder image service (used for illustrative photography pending final branded photos)*. Available at: https://picsum.photos/ [Accessed 2026].
 
 *Additional sources specific to the TechFix IT Solutions content and research are listed in the Website Project Proposal document.*
