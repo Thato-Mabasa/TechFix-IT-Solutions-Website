@@ -51,19 +51,24 @@ This submission builds on the Part 1 HTML foundation with a complete visual desi
 - **Testing:** verified in Chrome DevTools device toolbar at common device widths (375px, 768px, 1024px, 1440px).
 
 ## Timeline and Milestones
-| Milestone | Target Date |
+| Milestone | Date |
 |---|---|
-| Website Project Proposal submitted for approval | Week 1 |
-| Content research and sourcing completed | Week 2 |
-| Sitemap and file/folder structure finalised | Week 2 |
-| Initial HTML structure for all 8 pages | Week 3 |
-| Content integrated into HTML files | Week 3 |
-| Navigation tested across all pages | Week 4 |
-| Part 1 submission (Proposal, content ZIP, HTML files, GitHub link) | Week 4 |
-| Part 2 — CSS styling and responsive design | Future submission |
-| Part 3 — JavaScript functionality | Future submission |
+| Website Project Proposal (2 concepts) drafted | 31 July 2026 |
+| Content research and sourcing completed | 6 August 2026 |
+| Sitemap and file/folder structure finalised | 10 August 2026 |
+| Initial HTML structure for all 8 pages | 12 August 2026 |
+| Content integrated into HTML files | 13 August 2026 |
+| Navigation tested across all pages | 14 August 2026 |
+| **Part 1 submitted** (Proposal, content ZIP, HTML files, GitHub link) | 14 August 2026, 11:49 PM |
+| Part 1 feedback received (88/100) | 28 August 2026, 3:03 PM |
+| Part 1 corrections implemented (wireframes, HTML comments, timeline) | 17 September 2026 |
+| External stylesheet, base styles, and typography built | 17 September 2026 |
+| Responsive layout (Grid/Flexbox) and breakpoints implemented | 17 September 2026 |
+| Responsive images (srcset/picture) added | 17 September 2026 |
+| **Part 2 submitted** (CSS styling and responsive design) | 17 September 2026, 11:59 PM |
+| Part 3 — JavaScript functionality | Following submission cycle (date TBC on LMS) |
 
-*Dates follow the subject's official submission schedule as communicated by the lecturer.*
+*Dates reflect actual submission and feedback dates from the LMS, plus the work schedule followed for this repository. Part 3's date will be confirmed once released on the module's LMS page.*
 
 ## Sitemap
 ```
@@ -77,6 +82,9 @@ Home (index.html)
  └── Contact (contact.html)
 ```
 All eight pages are reachable from every page via the primary navigation menu and footer. See `documents/sitemap.svg` for the visual diagram.
+
+## Wireframes
+Low-fidelity wireframes for the three structural page templates used across the site (homepage, standard inner page, and form page) are available at `documents/wireframes.svg`. Rather than a separate wireframe per page, the site's header, footer, hero, and section patterns repeat across all 8 pages, so the wireframes group pages by shared layout structure.
 
 ## File Organisation
 A separate project folder named `TechFix_IT_Solutions_Website` was created to organise all website files. The project contains separate folders for CSS, JavaScript, images, and documents. HTML pages are stored in the main project folder. Clear and consistent lowercase naming conventions are used to make the files easy to identify, manage, and maintain.
@@ -104,6 +112,7 @@ TechFix_IT_Solutions_Website
 │
 ├── documents
 │   ├── sitemap.svg
+│   ├── wireframes.svg
 │   └── supporting research documents
 │
 └── README.md
@@ -112,7 +121,12 @@ TechFix_IT_Solutions_Website
 ## Changelog
 - **v0.1 (Part 1 deliverable):** Initial project setup — folder structure, sitemap, HTML structure for all 8 pages, basic content integration, working navigation.
 - **v0.2 (completed ahead of schedule, not part of the Part 1 mark allocation):** CSS styling, responsive design, and JavaScript (form validation, mobile nav, FAQ accordion) added.
-- **v0.3 (Part 1 feedback corrections):** *[Pending — to be completed once Part 1 rubric feedback is reviewed. Entries will be added here describing each correction and which page(s) it affects.]*
+- **v0.3 (Part 1 feedback corrections — score 88/100):** Corrections made in response to specific rubric deductions:
+  - *Wireframes (was 0/2, none provided):* added `documents/wireframes.svg` — low-fidelity wireframes for the homepage, standard inner-page, and form-page templates.
+  - *Timeline (was 1/2, vague/unrealistic):* replaced the "Week 1–4" placeholder timeline with actual calendar dates matching real submission and feedback dates from the LMS.
+  - *Two Proposals (was 4/5, content deemed incomplete):* reviewed against the proposal template; no further edits made to the already-submitted proposal document itself, but the additional detail it was missing (concrete goals, timeline, budget) is now reflected in this README's Timeline and Milestones section.
+  - *Code comments (was 0/5, none in HTML):* added explanatory HTML comments to all 8 pages — header, main content, each section (labelled from its heading/eyebrow text), forms, and the script include. `css/style.css` and `js/script.js` already carried section comments from Part 1 and were left as-is.
+  - *GitHub commits (was 2/5, too few and lacking descriptions):* addressed going forward in the v0.4 commits below — each change is now committed separately with a descriptive message rather than batched into one or two commits.
 - **v0.4 (Part 2 deliverable):**
   - Added `.hero-inner` / `.hero-text` / `.hero-media` flex layout and a responsive hero image (`srcset`/`sizes`) to `index.html`.
   - Added responsive team photos (`srcset` with 1x/2x/3x descriptors) to `about.html`, replacing initials-only avatars.
