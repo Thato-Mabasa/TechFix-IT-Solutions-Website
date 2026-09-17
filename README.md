@@ -129,6 +129,6 @@ TechFix_IT_Solutions_Website
 - Mozilla Developer Network (MDN). 2026. *Using media queries*. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries [Accessed 2026].
 - W3C. 2026. *HTML Living Standard*. Available at: https://html.spec.whatwg.org/ [Accessed 2026].
 - Google Fonts. 2026. *Space Grotesk, Inter, and JetBrains Mono*. Available at: https://fonts.google.com/ [Accessed 2026].
-- Lorem Picsum. 2026. *Placeholder image service (used for illustrative photography pending final branded photos)*. Available at: https://picsum.photos/ [Accessed 2026].
+- Unsplash. 2026. *Photography by Christina @ wocintechchat.com and Taylor Vick, used under the Unsplash License*. Available at: https://unsplash.com/license [Accessed 2026].
 
 *Additional sources specific to the TechFix IT Solutions content and research are listed in the Website Project Proposal document.*
