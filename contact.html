@@ -11,6 +11,7 @@
 </head>
 <body>
 
+  <!-- Site header: logo, primary navigation (nav-links), and mobile menu toggle button -->
   <header class="site-header">
     <nav class="container nav">
       <a href="index.html" class="logo"><span class="dot"></span>TechFix IT Solutions</a>
@@ -28,7 +29,9 @@
     </nav>
   </header>
 
+  <!-- Main page content -->
   <main>
+    <!-- Section: Contact -->
     <section class="hero" style="padding: 64px 0 48px;">
       <div class="container">
         <p class="hero-eyebrow">Contact</p>
@@ -40,6 +43,7 @@
     <div class="trace"></div>
 
 
+    <!-- Section: Our Locations -->
     <section>
       <div class="container">
         <p class="section-label">Our Locations</p>
@@ -68,10 +72,12 @@
       </div>
     </section>
 
+    <!-- Section: Get in Touch -->
     <section style="background:#fff; border-top:1px solid #dfe6ee;">
       <div class="container">
         <p class="section-label">Get in Touch</p>
         <h2>Send us a message</h2>
+        <!-- Client-side validated form; see js/script.js for required-field and email checks -->
         <form class="form-wrap" data-validate novalidate>
           <label for="c-name">Full Name</label>
           <input type="text" id="c-name" name="name" required>
@@ -96,6 +102,7 @@
 
   </main>
 
+  <!-- Site footer: business summary, site navigation links, and contact details -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
@@ -132,6 +139,7 @@
     </div>
   </footer>
 
+  <!-- js/script.js handles: mobile nav toggle, FAQ accordion (faq.html), and booking/contact form validation -->
   <script src="js/script.js"></script>
 </body>
 </html>
