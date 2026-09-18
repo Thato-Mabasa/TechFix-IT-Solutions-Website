@@ -86,6 +86,17 @@ All eight pages are reachable from every page via the primary navigation menu an
 ## Wireframes
 Low-fidelity wireframes for the three structural page templates used across the site (homepage, standard inner page, and form page) are available at `documents/wireframes.svg`. Rather than a separate wireframe per page, the site's header, footer, hero, and section patterns repeat across all 8 pages, so the wireframes group pages by shared layout structure.
 
+## Screenshots
+Evidence of the site tested across the three main breakpoints described above, using the browser's device toolbar:
+
+| Breakpoint | Width | Screenshot |
+|---|---|---|
+| Mobile | 375px | `documents/screenshot-mobile.png` |
+| Tablet | 768px | `documents/screenshot-tablet.png` |
+| Desktop | Full width (1920px) | `documents/screenshot-desktop.png` |
+
+At mobile and tablet widths, the navigation collapses to a hamburger menu and the hero image moves below the text. At desktop width, the full multi-column layout and side-by-side hero are shown.
+
 ## File Organisation
 A separate project folder named `TechFix_IT_Solutions_Website` was created to organise all website files. The project contains separate folders for CSS, JavaScript, images, and documents. HTML pages are stored in the main project folder. Clear and consistent lowercase naming conventions are used to make the files easy to identify, manage, and maintain.
 
@@ -113,6 +124,9 @@ TechFix_IT_Solutions_Website
 ├── documents
 │   ├── sitemap.svg
 │   ├── wireframes.svg
+│   ├── screenshot-mobile.png
+│   ├── screenshot-tablet.png
+│   ├── screenshot-desktop.png
 │   └── supporting research documents
 │
 └── README.md
@@ -134,6 +148,7 @@ TechFix_IT_Solutions_Website
   - Restructured `css/style.css` responsive rules into three documented breakpoints: desktop (default), tablet (≤1024px), and mobile (≤720px / ≤600px).
   - Added `:active` pseudo-class states to primary/ghost buttons and nav links.
   - Added `.banner-media` and `.avatar img` styling to support the new responsive images.
+  - Added `documents/screenshot-mobile.png`, `screenshot-tablet.png`, and `screenshot-desktop.png` as evidence of testing at 375px, 768px, and full desktop width using the browser's device toolbar.
 
 ## References
 - Mozilla Developer Network (MDN). 2026. *HTML: HyperText Markup Language*. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed 2026].
