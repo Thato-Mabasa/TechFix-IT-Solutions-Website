@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/techfix/index.html</loc></url>
+  <url><loc>https://example.com/techfix/about.html</loc></url>
+  <url><loc>https://example.com/techfix/services.html</loc></url>
+  <url><loc>https://example.com/techfix/pricing.html</loc></url>
+  <url><loc>https://example.com/techfix/booking.html</loc></url>
+  <url><loc>https://example.com/techfix/testimonials.html</loc></url>
+  <url><loc>https://example.com/techfix/faq.html</loc></url>
+  <url><loc>https://example.com/techfix/contact.html</loc></url>
+</urlset>

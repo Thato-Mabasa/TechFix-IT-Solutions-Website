@@ -5,16 +5,16 @@
 - **Student Number:** ST10483866
 - **Module:** WEDE5020 — Web Development (Introduction)
 - **Institution:** Rosebank College (The Independent Institute of Education (Pty) Ltd)
-- **Submission:** Part 2 — Designing the Visuals: CSS Styling and Responsive Design
+- **Submission:** Part 3 — Enhancing Functionality and SEO
 
 ## Project Overview
 TechFix IT Solutions is a small IT support business based in Johannesburg, Gauteng, offering desktop support, network setup and maintenance, and cybersecurity essentials to small and medium businesses that don't have an in-house IT department. This website was built as the practical component of the WEDE5020 Proof of Evidence (PoE), which is structured across three parts:
 
-- **Part 1 (this submission):** Project planning, HTML structure, and basic content for an 8-page website.
+- **Part 1:** Project planning, HTML structure, and basic content for an 8-page website.
 - **Part 2:** CSS styling, responsive design, and visual polish.
-- **Part 3:** JavaScript functionality and interactivity.
+- **Part 3 (this submission):** JavaScript functionality and interactivity, validated forms, external service integration, and search-engine optimisation.
 
-**Note on scope:** the required deliverable for this Part 1 submission is the HTML structure and content. The CSS styling and JavaScript (form validation, mobile navigation, FAQ accordion) included in this repository were completed ahead of schedule, working holistically across all three stages rather than strictly sequentially, and are included here for completeness rather than as part of the Part 1 mark allocation.
+**Project history:** Parts 1 and 2 established the website content, responsive visual design, mobile navigation, FAQ accordion and basic client-side forms. Part 3 extends that submitted project with the interactions and SEO described below. Historical sections document earlier milestones and feedback; see `CHANGELOG.md` for the Part 3 changes.
 
 ## Website Goals and Objectives
 - Present TechFix IT Solutions as a credible, approachable IT support provider for small businesses.
@@ -94,6 +94,7 @@ Evidence of the site tested across the three main breakpoints described above, u
 | Mobile | 375px | `documents/screenshot-mobile.png` |
 | Tablet | 768px | `documents/screenshot-tablet.png` |
 | Desktop | Full width (1920px) | `documents/screenshot-desktop.png` |
+**Evidence files:** The submitted Part 2 ZIP includes the README references above, but does not contain the three PNG screenshot files in `documents/`. Restore those screenshots from your original copy or capture fresh browser evidence before submission if your lecturer requires it.
 
 At mobile and tablet widths, the navigation collapses to a hamburger menu and the hero image moves below the text. At desktop width, the full multi-column layout and side-by-side hero are shown.
 
@@ -161,3 +162,6 @@ TechFix_IT_Solutions_Website
 - Unsplash. 2026. *Photography by Christina @ wocintechchat.com and Taylor Vick, used under the Unsplash License*. Available at: https://unsplash.com/license [Accessed 2026].
 
 *Additional sources specific to the TechFix IT Solutions content and research are listed in the Website Project Proposal document.*
+
+
+

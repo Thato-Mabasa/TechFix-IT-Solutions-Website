@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book a Consultation | TechFix IT Solutions</title>
-  <meta name="description" content="Book a free IT consultation with TechFix IT Solutions. Choose a date, time, and service.">
+  <title>Book an IT Consultation | TechFix Johannesburg</title>
+  <meta name="description" content="Request a free IT consultation with TechFix IT Solutions. Choose a service, date and time for your Johannesburg or Gauteng business.">
+  <meta name="keywords" content="book IT consultation Johannesburg, IT support booking Gauteng, small business computer support">
+  <meta name="author" content="TechFix IT Solutions">
+  <meta name="theme-color" content="#0a1628">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Book an IT Consultation | TechFix">
+  <meta property="og:description" content="Request a free 20-minute IT support consultation in Johannesburg or online.">
+  <link rel="canonical" href="https://example.com/techfix/booking.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ITService","name":"TechFix IT Solutions consultation","serviceType":"Small business IT support consultation","areaServed":{"@type":"AdministrativeArea","name":"Gauteng, South Africa"},"url":"https://example.com/techfix/booking.html"}</script>
 </head>
 <body>
 
@@ -15,7 +23,7 @@
   <header class="site-header">
     <nav class="container nav">
       <a href="index.html" class="logo"><span class="dot"></span>TechFix IT Solutions</a>
-      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation menu">Menu</button>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Open navigation menu">Menu</button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -51,7 +59,7 @@
           <div class="booking-grid">
             <div>
               <label for="b-name">Full Name</label>
-              <input type="text" id="b-name" name="name" required>
+            <input type="text" id="b-name" name="name" autocomplete="name" minlength="2" required>
             </div>
             <div>
               <label for="b-company">Company Name</label>
@@ -62,11 +70,11 @@
           <div class="booking-grid">
             <div>
               <label for="b-email">Email Address</label>
-              <input type="email" id="b-email" name="email" required>
+              <input type="email" id="b-email" name="email" autocomplete="email" required>
             </div>
             <div>
               <label for="b-phone">Phone Number</label>
-              <input type="tel" id="b-phone" name="phone" required>
+              <input type="tel" id="b-phone" name="phone" autocomplete="tel" inputmode="tel" required>
             </div>
           </div>
 
@@ -111,7 +119,7 @@
             <button type="submit" class="btn btn-primary" style="border:none; cursor:pointer;">Request Booking</button>
           </div>
 
-          <div class="form-status" role="status" aria-live="polite"></div>
+          <div class="form-status" role="status" aria-live="polite" tabindex="-1"></div>
         </form>
       </div>
     </section>
@@ -156,6 +164,6 @@
   </footer>
 
   <!-- js/script.js handles: mobile nav toggle, FAQ accordion (faq.html), and booking/contact form validation -->
-  <script src="js/script.js"></script>
+  <script src="js/script.js" defer></script>
 </body>
 </html>

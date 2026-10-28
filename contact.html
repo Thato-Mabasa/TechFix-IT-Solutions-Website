@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | TechFix IT Solutions</title>
-  <meta name="description" content="Get in touch with TechFix IT Solutions. Find our Johannesburg and Randburg office locations, phone, and email.">
+  <title>Contact TechFix | Johannesburg and Randburg</title>
+  <meta name="description" content="Contact TechFix IT Solutions or find its Johannesburg CBD and Randburg offices for small-business IT support.">
+  <meta name="keywords" content="contact IT support Johannesburg, IT support Randburg, TechFix Gauteng, small business helpdesk">
+  <meta name="author" content="TechFix IT Solutions">
+  <meta name="theme-color" content="#0a1628">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact TechFix IT Solutions | Johannesburg and Randburg">
+  <meta property="og:description" content="Contact the TechFix support desk or find our Johannesburg and Randburg offices.">
+  <link rel="canonical" href="https://example.com/techfix/contact.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ITService","name":"TechFix IT Solutions","description":"Small business IT support serving Johannesburg, Randburg and Gauteng.","telephone":"+27 11 555 0198","email":"support@techfixit.co.za","areaServed":{"@type":"AdministrativeArea","name":"Gauteng, South Africa"},"url":"https://example.com/techfix/contact.html"}</script>
 </head>
 <body>
 
@@ -15,7 +23,7 @@
   <header class="site-header">
     <nav class="container nav">
       <a href="index.html" class="logo"><span class="dot"></span>TechFix IT Solutions</a>
-      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation menu">Menu</button>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Open navigation menu">Menu</button>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -61,14 +69,16 @@
           </div>
         </div>
 
+        <h3>Johannesburg office map</h3>
         <div class="map-embed">
           <iframe
-            src="https://www.google.com/maps?q=Johannesburg%20CBD&output=embed"
+            src="https://www.google.com/maps?q=Johannesburg%20CBD%2C%20South%20Africa&output=embed"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-            title="Map showing TechFix IT Solutions Johannesburg CBD office">
+            title="Map showing Johannesburg CBD in Gauteng">
           </iframe>
         </div>
+        <p class="map-caption">The addresses are part of this fictional student project; the map points to Johannesburg CBD.</p>
       </div>
     </section>
 
@@ -80,22 +90,22 @@
         <!-- Client-side validated form; see js/script.js for required-field and email checks -->
         <form class="form-wrap" data-validate novalidate>
           <label for="c-name">Full Name</label>
-          <input type="text" id="c-name" name="name" required>
+          <input type="text" id="c-name" name="name" autocomplete="name" minlength="2" required>
 
           <label for="c-email">Email Address</label>
-          <input type="email" id="c-email" name="email" required>
+          <input type="email" id="c-email" name="email" autocomplete="email" required>
 
           <label for="c-subject">Subject</label>
-          <input type="text" id="c-subject" name="subject" required>
+          <input type="text" id="c-subject" name="subject" minlength="3" required>
 
           <label for="c-message">Message</label>
-          <textarea id="c-message" name="message" required></textarea>
+          <textarea id="c-message" name="message" minlength="10" required></textarea>
 
           <div style="margin-top: 24px;">
             <button type="submit" class="btn btn-primary" style="border:none; cursor:pointer;">Send Message</button>
           </div>
 
-          <div class="form-status" role="status" aria-live="polite"></div>
+          <div class="form-status" role="status" aria-live="polite" tabindex="-1"></div>
         </form>
       </div>
     </section>
@@ -140,6 +150,6 @@
   </footer>
 
   <!-- js/script.js handles: mobile nav toggle, FAQ accordion (faq.html), and booking/contact form validation -->
-  <script src="js/script.js"></script>
+  <script src="js/script.js" defer></script>
 </body>
 </html>
